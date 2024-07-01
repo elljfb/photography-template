@@ -20,6 +20,6 @@ function closeOverlay() {
 function navigateOverlay(direction) {
   const totalImages = galleryImages.length;
   currentIndex = (currentIndex + direction + totalImages) % totalImages;
-  overlayImage.src = `images/tom${currentIndex + 1}.jpeg`;
+  overlayImage.src = `images/elliot (${currentIndex + 1}).jpg`;
 }
 
